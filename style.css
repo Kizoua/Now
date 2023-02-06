@@ -1,0 +1,57 @@
+div a {
+    text-decoration: none;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 15px;
+    width: max-content;
+    padding-right: 15px;
+}
+
+.logo {
+    display:flex;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding-block: 30px;
+    padding-inline-start: 12px
+}
+
+.menu-buttons-icons {
+    display: flex;
+    padding-block: 16px;
+    height: 55px;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.menu-buttons-text {
+    padding-block: 15px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+}
+
+.left-header {
+    box-sizing: border-box;
+    margin-right: 0%;
+    border-right: 1.5px solid #2D2D2D;
+    max-width: 200px;
+    height: 1000px;
+    padding-right: 20px;
+}
+
+.left-header-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100px;
+}
+
+#MoreButton {
+    position: relative;
+    padding-top: 155px;
+    height: 300px;
+}

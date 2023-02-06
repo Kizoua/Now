@@ -1,0 +1,37 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1112 1110" width="1110" height="1110">
+	<title>profile-icon-svg</title>
+	<defs>
+		<linearGradient id="g1" x1="522" y1="554" x2="593" y2="554" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".3" stop-color="#ffffff"/>
+			<stop offset=".4" stop-color="#ffffff"/>
+			<stop offset=".5" stop-color="#ffffff"/>
+			<stop offset=".6" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="242" y1="555.5" x2="875" y2="555.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".3" stop-color="#ffffff"/>
+			<stop offset=".4" stop-color="#ffffff"/>
+			<stop offset=".5" stop-color="#ffffff"/>
+			<stop offset=".6" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-width: 72 } 
+		.s1 { fill: url(#g1);stroke: #ffffff;stroke-width: 0 } 
+		.s2 { fill: url(#g2);stroke: #ffffff;stroke-width: 0 } 
+	</style>
+	<g id="Pasta 5">
+		<g id="Contorno">
+			<path id="Forma 3" class="s0" d="m37 411c0-207.1 167.9-375 375-375h290c207.1 0 375 167.9 375 375v288c0 207.1-167.9 375-375 375h-290c-207.1 0-375-167.9-375-375z"/>
+		</g>
+		<g id="+">
+			<path id="Forma 2" class="s1" d="m522 272.5c0-19.6 15.9-35.5 35.5-35.5 19.6 0 35.5 15.9 35.5 35.5v563c0 19.6-15.9 35.5-35.5 35.5-19.6 0-35.5-15.9-35.5-35.5z"/>
+		</g>
+		<g id="+">
+			<path id="Camada 2" class="s2" d="m242 555.5c0-19.6 15.9-35.5 35.5-35.5h562c19.6 0 35.5 15.9 35.5 35.5 0 19.6-15.9 35.5-35.5 35.5h-562c-19.6 0-35.5-15.9-35.5-35.5z"/>
+		</g>
+	</g>
+</svg>

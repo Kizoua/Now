@@ -1,0 +1,44 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+	<title>profile-icon-svg</title>
+	<defs>
+		<linearGradient id="g1" x1="282.6" y1="375.1" x2="918.2" y2="375.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fdf440"/>
+			<stop offset=".3" stop-color="#f94a2f"/>
+			<stop offset=".3" stop-color="#f74734"/>
+			<stop offset=".4" stop-color="#f13d41"/>
+			<stop offset=".5" stop-color="#e72e58"/>
+			<stop offset=".6" stop-color="#da1a75"/>
+			<stop offset="1" stop-color="#2b4ae2"/>
+		</linearGradient>
+		<linearGradient id="g2" x1="50" y1="932.4" x2="1150" y2="932.4" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffffff"/>
+			<stop offset=".3" stop-color="#ffffff"/>
+			<stop offset=".3" stop-color="#ffffff"/>
+			<stop offset=".4" stop-color="#ffffff"/>
+			<stop offset=".5" stop-color="#ffffff"/>
+			<stop offset=".6" stop-color="#ffffff"/>
+			<stop offset="1" stop-color="#ffffff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<filter id="f0">
+					<feFlood flood-color="#ffffff" flood-opacity="1" />
+					<feBlend mode="normal" in2="SourceGraphic"/>
+					<feComposite in2="SourceAlpha" operator="in" />
+				</filter>
+				<g id="Layer" filter="url(#f0)">
+					<path id="Layer" fill-rule="evenodd" class="s0" d="m600.4 692.9c-175.3 0-317.8-142.6-317.8-317.8 0-175.3 142.5-317.8 317.8-317.8 175.2 0 317.8 142.5 317.8 317.8 0 175.2-142.6 317.8-317.8 317.8zm0-542.9c-124.1 0-225.1 101-225.1 225.1 0 124.1 101 225 225.1 225 124.1 0 225-100.9 225-225 0-124.1-100.9-225.1-225-225.1z"/>
+				</g>
+			</g>
+			<g id="Layer">
+				<path id="Layer" class="s1" d="m1103.6 1142.7c-25.6 0-46.4-20.7-46.4-46.3 0-155.3-126.2-281.5-281.4-281.5h-351.6c-155.2 0-281.4 126.2-281.4 281.5 0 25.6-20.8 46.3-46.4 46.3-25.6 0-46.4-20.7-46.4-46.3 0-206.4 167.9-374.3 374.2-374.3h351.6c206.3 0 374.2 167.9 374.2 374.3 0 25.6-20.8 46.3-46.4 46.3z"/>
+			</g>
+		</g>
+	</g>
+</svg>
