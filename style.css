@@ -13,10 +13,10 @@ div a {
 .logo {
     display:flex;
     color: white;
-    font-family: 'Lobster', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 30px;
     padding-block: 30px;
-    padding-inline-start: 12px
+    padding-inline-start: 50px
 }
 
 .menu-buttons-icons {
@@ -29,18 +29,21 @@ div a {
 
 .menu-buttons-text {
     padding-block: 15px;
+    padding-right: 15px;
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
 }
 
 .left-header {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin-right: 0%;
     border-right: 1.5px solid #2D2D2D;
-    max-width: 200px;
+    max-width: max-content;
     height: 1000px;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .left-header-buttons {
@@ -54,4 +57,45 @@ div a {
     position: relative;
     padding-top: 155px;
     height: 300px;
+}
+
+.status-bar {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: max-content;
+}
+
+.status-bar-icon {
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    padding-block: 10px
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto
+}
+
+.user-status {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 9px;
+}
+
+.user-status-name{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    justify-self: stretch;
+    margin: 0 auto;
+}
+
+#status-icon {
+    display: flex;
+    position: fixed;
 }

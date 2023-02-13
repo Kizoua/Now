@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2240 2240" width="2240" height="2240">
+	<title>profile-icon</title>
+	<defs>
+		<linearGradient id="g1" x1="53" y1="2189" x2="2188" y2="54" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#0000ff"/>
+			<stop offset=".1" stop-color="#0000ff"/>
+			<stop offset=".5" stop-color="#ffffff"/>
+			<stop offset=".9" stop-color="#ffea00"/>
+			<stop offset="1" stop-color="#ffea00"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-width: 100 } 
+	</style>
+	<path id="Forma 1" class="s0" d="m1120.5 2189c-590.3 0-1067.5-477.2-1067.5-1067.5 0-590.3 477.2-1067.5 1067.5-1067.5 590.3 0 1067.5 477.2 1067.5 1067.5 0 590.3-477.2 1067.5-1067.5 1067.5z"/>
+</svg>

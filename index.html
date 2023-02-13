@@ -7,25 +7,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <title>Instagram</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body style="background-color: black; padding-left: 12px;">
+<body style="background-color: black; padding-left: 12px; display: flex; flex-direction: row;">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <div class="left-header">    <!--Aba da Esquerda-->
         <div>
-            <a href="#" class="logo">Instagram</a>
+            <a href="#" class="logo">Now</a>
         </div>
         <div class="left-header-buttons">
             <div class="menu-buttons">
+                <div>
+                    <img src="./img/svg/home-icon.svg" class="menu-buttons-icons">
+                </div>
                 <div href="#" class="menu-buttons-text"><a style="text-decoration: none; color: white;">Página Inicial</a></div>
             </div>
             <div class="menu-buttons" href="#">
+                <div>
+                    <img src="./img/svg/search-icon.svg" class="menu-buttons-icons">
+                </div>
                 <div class="menu-buttons-text"><a style="text-decoration: none; color: white;">Pesquisa</a></div>
             </div>
             <div class="menu-buttons" href="#">
+                <div>
+                    <img src="./img/svg/explore-icon.svg" class="menu-buttons-icons">
+                </div>
                 <div class="menu-buttons-text"><a style="text-decoration: none; color: white;">Explorar</a></div>
             </div>
             <div class="menu-buttons" href="#">
@@ -66,6 +75,64 @@
             <div class="menu-buttons-text"><a style="text-decoration: none; color: white;">Mais</a></div>
         </div>
     </div>
+    <main class="feed">
+        <div class="status-bar">
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user1</a>
+                </div>
+            </div>
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user2</a>
+                </div>
+            </div>
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user3</a>
+                </div>
+            </div>
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user4</a>
+                </div>
+            </div>
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user5</a>
+                </div>
+            </div>
+            <div class="user-status">
+                <div>
+                    <img src="./img/svg/status-icon.svg" class="status-bar-icon" id="status-icon">
+                    <img src="./img/png/profile-icon.png" class="status-bar-icon">
+                </div>
+                <div class="user-status-name">
+                    <a>user6</a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
