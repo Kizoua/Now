@@ -97,5 +97,38 @@ div a {
 
 #status-icon {
     display: flex;
-    position: fixed;
+    position: absolute;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.post-head{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.post-profile-icon{
+    display: flex;
+    height: 40px;
+}
+
+.post-image{
+    display: flex;
+    height: auto;
+    width: 444px;
+    border-radius: 15px;
+}
+
+.post-head-text{
+    color: white;
+    margin: auto 0;
+    padding: 10px;
+}
+
+.post-icon{
+    display: flex;
+    height: 20px;
+    margin: auto 0;
+    color: white;
 }
